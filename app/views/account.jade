@@ -1,0 +1,43 @@
+.row-fluid
+    div(ng-class="{{user.provider === 'password'? 'col-md-4' : 'col-md-12'}}")
+        h3 Profile
+        form(role='form')
+          p.form-group
+            label Account ID
+            br
+            | {{user.uid}}
+          p.form-group
+            label Name:
+            input.form-control(type='text', name='name', ng-model='profile.name')
+          p.form-group
+            label Email:
+            input.form-control(type='text', name='email', ng-model='profile.email')
+        p
+          button.btn.btn-danger(role='button', ng-click='logout()') Log Out
+      .col-md-4(ng-show='{{user.provider === \'password\'}}')
+        form(role='form')
+          h3 Change Password
+          p.form-group
+            label Old Password:
+            input.form-control(type='password', ng-keypress='clear()', ng-model='oldpass')
+          p.form-group
+            label New Password:
+            input.form-control(type='password', ng-keypress='clear()', ng-model='newpass')
+          p.form-group
+            label Confirm New Password:
+            input.form-control(type='password', ng-keypress='clear()', ng-model='confirm')
+          button.btn.btn-primary(ng-click='changePassword(oldpass, newpass, confirm)') change password
+          p.error(ng-show='err') {{err}}
+          p.good(ng-show='msg') {{msg}}
+      .col-md-4(ng-show='{{user.provider === \'password\'}}')
+        form
+          h3 Change Email
+          p.form-group
+            label New Email:
+            input.form-control(type='text', ng-keypress='clear()', ng-model='newEmail')
+          p.form-group
+            label Password:
+            input.form-control(type='password', ng-keypress='clear()', ng-model='pass')
+          button.btn.btn-primary(ng-click='changeEmail(pass, newEmail)') update email
+    p.clearfix
+    .alert(ng-class="alert-{{message.type}}" ng-repeat='message in messages') {{message.text}}

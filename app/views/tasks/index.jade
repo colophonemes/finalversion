@@ -1,0 +1,21 @@
+.row
+	.col-sm-12
+		h2
+			| Tasks
+			a.btn.btn-primary.btn-xs(ng-click="showNewTaskPanel = !showNewTaskPanel; initNewTaskForm()")
+				| Add task 
+				span.glyphicon.glyphicon-plus
+.row(ng-show="showNewTaskPanel")
+	.col-sm-12.well
+		div(ng-include="'views/tasks/newTask.html'")
+.row
+	.col-sm-12
+		ul(id="messages" ng-show="tasks.length")
+			li(ng-repeat="task in tasks")
+				| {{task.name}}
+				span(ng-if="task.recurring")
+					| 
+					a.btn.btn-default.btn-xs 
+						span.glyphicon.glyphicon-repeat
+						|  x {{task.recurringInterval}}
+		p(class="alert alert-danger" ng-show="err") {{err}}   

@@ -1,0 +1,38 @@
+form.form-inline(role="form", name="newTask.form", ng-submit="newTaskSubmitted()", novalidate, id="newTaskForm")
+	//- .form-group
+	//- 	h4 Add a new task:
+	.form-group(ng-class="{ 'has-error' : newTask.form.name.$invalid && !newTask.form.name.$pristine }")
+		input.form-control(type="text" placeholder="Task name" ng-model="newTask.name" name="name" ng-required="true", autofocus-when="newTask.form.name.$pristine || showNewTaskPanel")
+	.form-group(ng-show="newTask.form.name.$valid")
+		button.btn(type="button" ng-click="newTask.taskRecurring = !newTask.taskRecurring",  ng-class="{'btn-info' : newTask.taskRecurring}")
+			span.glyphicon.glyphicon-repeat
+	.form-group(ng-show="newTask.taskRecurring && newTask.form.name.$valid", ng-class="{ 'has-error' : newTask.form.taskRecurringInterval.$invalid && !newTask.form.taskRecurringInterval.$pristine }")
+		label Repeat every
+			input.form-control(type="number", name="taskRecurringInterval", ng-model="newTask.taskRecurringInterval", ng-value="1", ng-required="newTask.taskRecurring", min="1" ng-pattern="/^[0-9]*$/")
+			| day
+			span(ng-show="newTask.taskRecurringInterval > 1") s
+	button.btn.btn-success(type="submit" ng-disabled="newTask.form.$invalid")
+		| Add task 
+		span.glyphicon.glyphicon-plus 
+	.help-block
+		span(ng-show="newTask.form.$pristine || newTask.form.name.$invalid")
+			| Type a name for your task
+		span(ng-show="newTask.form.name.$valid && !newTask.taskRecurring")
+			| Click the 
+			span.glyphicon.glyphicon-repeat 
+			|  button to make 
+			b {{newTask.name}}
+			|  a recurring task, or click 
+			b Add task
+			|  to add it to the list
+		span(ng-show="newTask.taskRecurring && newTask.form.taskRecurringInterval.$invalid")
+			| Set the number of days between each repeat of 
+			b {{newTask.name}}
+		span(ng-show="newTask.form.name.$valid && newTask.taskRecurring && newTask.form.taskRecurringInterval.$valid")
+			| Click 
+			b Add task
+			|  to add 
+			b {{newTask.name}}
+			|  to the list
+
+

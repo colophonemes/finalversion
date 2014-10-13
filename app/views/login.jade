@@ -1,0 +1,23 @@
+h2 Login Page
+  fieldset
+      legend Oauth
+      p
+        button.btn.btn-primary(ng-click='oauthlogin(\'facebook\')') Facebook
+        button.btn.btn-primary(ng-click='oauthlogin(\'google\')') Google
+        button.btn.btn-primary(ng-click='oauthlogin(\'twitter\')') Twitter
+    form(role='form')
+      p.form-group
+        label(for='loginEmail') email
+        input#loginEmail.form-control(required='required', name='email', type='email', ng-model='email')
+      p.form-group
+        label(for='loginPass') password
+        input#loginPass.form-control(required='required', name='pass', type='password', ng-model='pass')
+      p.form-group(ng-cloak='ng-cloak', ng-show='createMode')
+        label(for='loginConfirm') confirm pass
+        input#loginConfirm.form-control(required='required', name='confirm', type='password', ng-model='confirm')
+      p
+        button.btn.btn-primary(ng-click='passwordLogin(email, pass)', ng-hide='createMode') Log In
+        button.btn.btn-default(ng-click='createMode = true', ng-hide='createMode') Register
+        button.btn.btn-primary(ng-cloak='ng-cloak', ng-show='createMode', ng-click='createAccount(email, pass, confirm)') Create Account
+        button.btn.btn-default(ng-cloak='ng-cloak', ng-show='createMode', ng-click='createMode = false') Cancel
+    p.bg-danger(ng-show='err') {{err}}

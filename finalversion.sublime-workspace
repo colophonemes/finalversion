@@ -1,0 +1,809 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newTaskForm"
+			],
+			[
+				"newTa",
+				"newTaskForm"
+			],
+			[
+				"newta",
+				"newTaskSubmitted"
+			],
+			[
+				"count",
+				"countTasks"
+			],
+			[
+				"co",
+				"countTasks"
+			],
+			[
+				"selec",
+				"selectedTaskCount"
+			],
+			[
+				"sel",
+				"selectedTaskCount"
+			],
+			[
+				"task",
+				"tasksCount"
+			],
+			[
+				"hand",
+				"handleError"
+			],
+			[
+				"Tasks",
+				"TasksService"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"tas",
+				"tasksSelected"
+			],
+			[
+				"san",
+				"sanitise"
+			],
+			[
+				"sanitise",
+				"sanitiseTaskData"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"upD",
+				"updateTask"
+			],
+			[
+				"updat",
+				"updateTask"
+			],
+			[
+				"ng-c",
+				"ng-class"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"def",
+				"defaultStatus"
+			],
+			[
+				"line",
+				"line-through"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"ng",
+				"ng-click"
+			],
+			[
+				"ref",
+				"refreshTasks"
+			],
+			[
+				"ng-s",
+				"ng-show"
+			],
+			[
+				"ng-",
+				"ng-click"
+			],
+			[
+				"is",
+				"isAuthenticated"
+			],
+			[
+				"handle",
+				"handleSuccess"
+			],
+			[
+				"de",
+				"destroyTask"
+			],
+			[
+				"res",
+				"resetNewTaskForm"
+			],
+			[
+				"sort",
+				"sortTasks"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"get",
+				"getTasksByUserId"
+			],
+			[
+				"rec",
+				"taskRecurringInterval"
+			],
+			[
+				"taskRe",
+				"taskRecurringInterval"
+			],
+			[
+				"ne",
+				"newTask"
+			],
+			[
+				"log",
+				"loggedIn"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"criter",
+				"criteria"
+			],
+			[
+				"post",
+				"post_type"
+			],
+			[
+				"class",
+				"class_names"
+			],
+			[
+				"curr",
+				"current_object_id"
+			],
+			[
+				"item",
+				"item_output"
+			],
+			[
+				"fea",
+				"featured_2_src"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"pag",
+				"pagination_args"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"crit",
+				"criterion_key"
+			],
+			[
+				"criterion_",
+				"criterion_key"
+			],
+			[
+				"cri",
+				"criteria"
+			],
+			[
+				"array_k",
+				"array_key_exists"
+			],
+			[
+				"cur",
+				"current_filter"
+			],
+			[
+				"cu",
+				"current_filter"
+			],
+			[
+				"curren",
+				"current_filter_string"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"qu",
+				"query_vars"
+			],
+			[
+				"bootstra",
+				"Bootstrap"
+			],
+			[
+				"col",
+				"col-sm-6"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"img",
+				"img_lg"
+			],
+			[
+				"attac",
+				"attachments"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"bal",
+				"background-color"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"Job",
+				"jobCutsFlagged"
+			],
+			[
+				"fla",
+				"flaggedCuts"
+			],
+			[
+				"fl",
+				"flaggedCuts"
+			],
+			[
+				"jo",
+				"jobCutsTotal"
+			],
+			[
+				"raw",
+				"rawurlencode"
+			],
+			[
+				"htm",
+				"htmlentities"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"autom",
+				"automaticallyTriggered"
+			],
+			[
+				"auto",
+				"automaticallyTriggered"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"var",
+				"various"
+			],
+			[
+				"jobcu",
+				"jobcutstotal"
+			],
+			[
+				"compar",
+				"comparisons"
+			],
+			[
+				"calc",
+				"calculateJobCutsTotal"
+			],
+			[
+				"comp",
+				"comparisonsCollapsed"
+			],
+			[
+				"other",
+				"otherFrontlineIndex"
+			],
+			[
+				"jOb",
+				"jobCount"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"comparisons",
+				"comparisonsObj"
+			],
+			[
+				"collapse",
+				"collapseTo"
+			],
+			[
+				"com",
+				"comparisonsIndex"
+			],
+			[
+				"mixed",
+				"mixedComparisons"
+			],
+			[
+				"promises",
+				"promisesDisplayed"
+			],
+			[
+				"time",
+				"timeIncrement"
+			],
+			[
+				"totl",
+				"totalTime"
+			],
+			[
+				"coun",
+				"countIncrement"
+			],
+			[
+				"total",
+				"totalTime"
+			],
+			[
+				"prm",
+				"promisetotal"
+			],
+			[
+				"promis",
+				"promiseTotal"
+			],
+			[
+				"calcula",
+				"calculatePromiseTotal"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"calcul",
+				"calculateTotal"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"wh",
+				"whitespace"
+			],
+			[
+				"al",
+				"alphanumeric_only"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 10807,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 618,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"rev",
+				"File: Revert"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sam/Dropbox/Sites/finalversion/server/api/task/task.model.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/api/task/index.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/auth/auth.service.js",
+		"/Users/sam/Dropbox/Sites/finalversion/gruntfile.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/index.html",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/app.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/tasks/tasks-main.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/server/api/task/task.controller.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/api/user/user.model.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/api/user/index.js",
+		"/Users/sam/Dropbox/Sites/finalversion/node_modules/composable-middleware/lib/composable-middleware.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/tasks/tasks.scss",
+		"/Users/sam/Dropbox/Sites/finalversion/client/components/auth/auth.service.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/account/login/login.controller.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/tasks/tasks.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/dist/server/config/seed.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/config/seed.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/routes.js",
+		"/Users/sam/Dropbox/Sites/finalversion/server/config/environment/development.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/app.scss",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/main/main.scss",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/main/main.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/main/main.controller.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/tasks/tasks.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/tasks/tasks.controller.js",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/main/main.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/account/settings/settings.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/account/signup/signup.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/account/login/login.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/client/app/admin/admin.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/client/components/navbar/navbar.jade",
+		"/Users/sam/Dropbox/Sites/finalversion/src/js/app.js",
+		"/Users/sam/Dropbox/Sites/finalversion/package.json",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/library/css/main.css",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/functions.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/archive-furniture.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/single-furniture.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/front-page.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/library/shortcodes.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/page.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/header.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/library/js/scripts.js",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/footer.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/library/modal_image.php",
+		"/Users/sam/Dropbox/Sites/rawfurniture/template/comments.php",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/template/comments.php",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/template/index.php",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/template/header.php",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/template/library/css/main.css",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/template/functions.php",
+		"/Users/sam/Dropbox/Sites/pennywong.com.au_/notes",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/raw-furniture.sublime-project",
+		"/Users/sam/Sites/squarehouse/site/config/schema.js",
+		"/Users/sam/Sites/squarehouse/site/.bowerrc",
+		"/Users/sam/Sites/squarehouse/site/bower.json",
+		"/Users/sam/Sites/squarehouse/site/package.json",
+		"/Users/sam/Dropbox/Sites/squarehouse/site/package.json",
+		"/Users/sam/Dropbox/Sites/squarehouse/Gruntfile.js",
+		"/Users/sam/Dropbox/Sites/Raw Furniture/site/Gruntfile.js",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/less/frontend.less",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/scripts/controllers/payments.js",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/index.html",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/scripts/app.js",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/views/payments.html",
+		"/Users/sam/Dropbox/Sites/squarehouse/server.js",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/scripts/controllers/home.js",
+		"/Users/sam/Dropbox/Sites/squarehouse/package.json",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/views/home.html",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/less/base.less",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/less/backend.less",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/less/base.css",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/styles/base.less",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/styles/frontend.less",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/styles/backend.less",
+		"/Users/sam/Dropbox/Sites/squarehouse/app/bower_components/bootstrap/Gruntfile.js",
+		"/Users/sam/Dropbox/Sites/squarehouse/bower.json",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/dot.htaccess",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/index.html",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/views/global/app/header.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/controllers/ajax.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/assets/js/app.js",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/less/app.less",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/views/spendometer/index.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/views/global/app/footer.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/assets/js/app.min.js",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/assets/js/plugins.js",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/controllers/cuts.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/views/admin/spending/edit.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/config/form.php",
+		"/Users/sam/Dropbox/Sites/socialmedia.736a64.org/site/application/libraries/MY_Form_validation.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/views/global/admin/footer.php",
+		"/Users/sam/Dropbox/Sites/spendo.736a64.org/site/application/core/MY_Controller.php",
+		"/Users/sam/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"serve",
+			"> ",
+			"bower",
+			"jade",
+			"compile",
+			"destroyTask",
+			":',",
+			"selectedT",
+			")].",
+			"log",
+			"id",
+			"isUser",
+			"Tasks.",
+			"          <script src=\"app/tasks/tasks.js\"></script>\n",
+			"thing.model",
+			"thing",
+			"The delete user and user index api routes are restricted to users with the 'admin' role.",
+			"small",
+			"0",
+			"carousel-example-generic",
+			"\"",
+			"  \n",
+			"less",
+			"I",
+			"  styles: {\n        files: ['<%= yeoman.app %>/styles/{,*/}*.css'],\n        tasks: ['newer:copy:styles', 'autoprefixer']\n      },",
+			"newe",
+			"watch",
+			"bower",
+			"@import \"",
+			"conca",
+			"less",
+			"@",
+			"less",
+			"bower-in",
+			"animate-",
+			"ng-",
+			"id",
+			"></",
+			">.</",
+			"hover",
+			"p",
+			"</span>",
+			"/span>",
+			"p",
+			"console",
+			"body",
+			"typeO",
+			"console",
+			"consol",
+			"plural",
+			"then",
+			"numeric",
+			"promise",
+			"count_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"carousel-gallery",
+			"'",
+			"@import \"../bower_components/bootstrap/less/",
+			"data-ng-",
+			"span",
+			"</span><br>",
+			"span",
+			"comparison"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 10807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3958,
+								3965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2117.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								614,
+								614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}
