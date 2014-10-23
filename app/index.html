@@ -2,7 +2,8 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Final Version</title>
+    <base href="/" >
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -26,7 +27,7 @@
         <ul class="nav nav-pills pull-right">
           <li class="active"><a ng-href="/">Home</a></li>
           <!-- //angularfire -->
-          <li><a ng-href="/tasks">tasks</a></li>
+          <li><a href="/tasks">tasks</a></li>
           <li>
             <a ng-hide-auth="" href="/login">log in</a>
             <a ng-show-auth="" href="/account">account</a>
@@ -83,13 +84,13 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/angularfire/config.js"></script>
         <script src="scripts/angularfire/firebase.utils.js"></script>
-        <script src="scripts/controllers/tasks.js"></script>
-        <script src="scripts/filters/reverse.js"></script>
         <script src="scripts/angularfire/simpleLogin.js"></script>
         <script src="scripts/controllers/login.js"></script>
         <script src="scripts/controllers/account.js"></script>
         <script src="scripts/directives/ngShowAuth.js"></script>
         <script src="scripts/directives/ngHideAuth.js"></script>
+        <script src="scripts/filters/reverse.js"></script>
+        <script src="scripts/controllers/tasks.js"></script>
         <script src="scripts/routes.js"></script>
         <!-- endbuild -->
 </body>

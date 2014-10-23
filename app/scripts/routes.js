@@ -81,6 +81,14 @@ angular.module('finalversionApp')
         templateUrl: 'views/tasks/index.html',
         controller: 'TasksCtrl'
       })
+      .whenAuthenticated('/tasks/select', {
+        templateUrl: 'views/tasks/selectTasks.html',
+        controller: 'TasksCtrl'
+      })
+      .whenAuthenticated('/tasks/run', {
+        templateUrl: 'views/tasks/runTasks.html',
+        controller: 'TasksCtrl'
+      })
 
       .otherwise({redirectTo: '/'});
   }])

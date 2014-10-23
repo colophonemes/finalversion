@@ -1,0 +1,25 @@
+#selectTasks
+	.row
+		.col-sm-12
+			h2
+				| Start working on your tasks! 
+				a.btn.btn-danger.btn-xs(href="/tasks")
+					| Stop 
+					span.glyphicon.glyphicon-stop
+	.row
+		.col-sm-12
+			ul.tasks(id="tasks")
+				li.task(ng-repeat="task in tasks | reverse" ng-if="task.selected && !task.completed" ng-class="{selected : task.selected, current: task.$id==currentTask.$id }")
+					| {{task.name}} 
+					span
+						| //time// 
+					span(ng-if="task.$id==currentTask.$id")
+						a.btn.btn-success.btn-xs.complete-task(ng-click="setTaskAsComplete( '{{task.$id}}' )")
+							| Task complete!  
+							span.glyphicon.glyphicon-ok
+					| 
+					span(ng-if="task.$id==currentTask.$id")
+						a.btn.btn-primary.btn-xs.complete-task(ng-click="setTaskAsDoneButIncomplete( '{{task.$id}}' )")
+							| Done working but not complete yet 
+							span.glyphicon.glyphicon-fast-forward
+			p(class="alert alert-danger" ng-show="err") {{err}}

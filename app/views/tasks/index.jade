@@ -1,21 +1,29 @@
-.row
-	.col-sm-12
-		h2
-			| Tasks
-			a.btn.btn-primary.btn-xs(ng-click="showNewTaskPanel = !showNewTaskPanel; initNewTaskForm()")
-				| Add task 
-				span.glyphicon.glyphicon-plus
-.row(ng-show="showNewTaskPanel")
-	.col-sm-12.well
-		div(ng-include="'views/tasks/newTask.html'")
-.row
-	.col-sm-12
-		ul(id="messages" ng-show="tasks.length")
-			li(ng-repeat="task in tasks")
-				| {{task.name}}
-				span(ng-if="task.recurring")
+#tasksIndex
+	.row
+		.col-sm-12
+			h2
+				| Tasks
+				a.btn.btn-success.btn-xs(href="/tasks/select")
+					| Select tasks 
+					span.glyphicon.glyphicon-arrow-right
+	.row
+		.col-sm-12
+			ul.tasks(id="tasks")
+				li.task(ng-repeat="task in tasks" ng-class="{complete:task.complete}")
+					| {{task.name}}
+					span(ng-if="task.recurring")
+						| 
+						a.btn.btn-default.btn-xs 
+							span.glyphicon.glyphicon-repeat
+							|  x {{task.recurringInterval}}
 					| 
-					a.btn.btn-default.btn-xs 
-						span.glyphicon.glyphicon-repeat
-						|  x {{task.recurringInterval}}
-		p(class="alert alert-danger" ng-show="err") {{err}}   
+					a.btn.btn-danger.btn-xs.delete-task(ng-click="deleteTask( '{{task.$id}}' )")
+						| Delete 
+						span.glyphicon.glyphicon-trash
+				li.add-task
+					a.btn.btn-primary.btn-xs(ng-show="!showNewTaskPanel" ng-click="showNewTaskPanel = true; initNewTaskForm();")
+						| Add task 
+						span.glyphicon.glyphicon-plus
+					div(ng-show="showNewTaskPanel")
+						div(ng-include="'views/tasks/newTask.html'")
+			p(class="alert alert-danger" ng-show="err") {{err}}

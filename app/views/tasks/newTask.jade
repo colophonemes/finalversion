@@ -2,7 +2,7 @@ form.form-inline(role="form", name="newTask.form", ng-submit="newTaskSubmitted()
 	//- .form-group
 	//- 	h4 Add a new task:
 	.form-group(ng-class="{ 'has-error' : newTask.form.name.$invalid && !newTask.form.name.$pristine }")
-		input.form-control(type="text" placeholder="Task name" ng-model="newTask.name" name="name" ng-required="true", autofocus-when="newTask.form.name.$pristine || showNewTaskPanel")
+		input.form-control(type="text" placeholder="Task name" ng-model="newTask.name" name="name" ng-required="true", autofocus-when="newTask.form.name.$pristine", autofocus-init="$parent.showNewTaskPanel")
 	.form-group(ng-show="newTask.form.name.$valid")
 		button.btn(type="button" ng-click="newTask.taskRecurring = !newTask.taskRecurring",  ng-class="{'btn-info' : newTask.taskRecurring}")
 			span.glyphicon.glyphicon-repeat
@@ -14,6 +14,10 @@ form.form-inline(role="form", name="newTask.form", ng-submit="newTaskSubmitted()
 	button.btn.btn-success(type="submit" ng-disabled="newTask.form.$invalid")
 		| Add task 
 		span.glyphicon.glyphicon-plus 
+	a.btn.btn-default(ng-click="$parent.showNewTaskPanel = false;")
+		| Cancel 
+		span.glyphicon.glyphicon-remove 
+
 	.help-block
 		span(ng-show="newTask.form.$pristine || newTask.form.name.$invalid")
 			| Type a name for your task

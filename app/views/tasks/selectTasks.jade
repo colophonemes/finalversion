@@ -1,0 +1,43 @@
+#selectTasks
+	.row
+		.col-sm-12
+			h2
+				| Select tasks 
+				a.btn.btn-default.btn-xs(href="/tasks")
+					span.glyphicon.glyphicon-arrow-left
+					|  Go back 
+				a.btn.btn-success.btn-xs(href="/tasks/run")
+					| Start working! 
+					span.glyphicon.glyphicon-arrow-right
+	.row
+		.col-sm-12
+			h3
+				em 
+					span.de-emphasise
+						| What do you want to do before you do 
+					| {{firstTask.name}}
+					span.de-emphasise
+						| ?
+			ul.tasks(id="tasks")
+				li.task(ng-repeat="task in tasks" ng-if="!task.complete && task.$id != firstTask.$id" ng-class="{selected : task.selected}")
+					| {{task.name}}
+					span(ng-if="task.recurring")
+						| 
+						a.btn.btn-default.btn-xs 
+							span.glyphicon.glyphicon-repeat
+							|  x {{task.recurringInterval}}
+					| 
+					a.btn.btn-primary.btn-xs.select-task(ng-click="toggleTaskSelected( '{{task.$id}}' )")
+						| Select 
+						span(ng-if="task.selected").glyphicon.glyphicon-check
+						span(ng-if="!task.selected").glyphicon.glyphicon-unchecked
+				li.task
+					a.btn.btn-success.btn(href="/tasks/run")
+						span(ng-if="selectedCount == 1")
+							| Just work on 
+							strong
+								{{firstTask.name}} 
+						span(ng-if="selectedCount >1")
+							| Work on {{selectedCount}} selected tasks 
+						span.glyphicon.glyphicon-arrow-right
+			p(class="alert alert-danger" ng-show="err") {{err}}

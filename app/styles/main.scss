@@ -6,13 +6,57 @@
 }
 .form-inline > * {
    margin-right: 3px;
-}   
+}
+.de-emphasise {
+  color: #999;
+}
 h2 {
   a.btn {
       margin-left:10px;
   }
 }
 
+// TASKS //
+
+ul.tasks {
+  $color: #333;
+  $lineColor : $color;
+  border: 2px solid #333;
+  padding: 20px;
+  li.task {
+    font-style: italic;
+    font-size: 24px;
+    color: $color;
+    .delete-task {
+      display: none;
+    }
+    &:hover{
+      background-color: #EEE;
+      .delete-task {
+        display: inline-block;
+      }
+    }
+    &.selected {
+      background-color: #99E;
+    }
+    &.complete{
+      text-decoration: line-through;
+      color: #999;
+    }
+  }
+  li.add-task{
+
+  }
+  li.task, li.add-task {
+    list-style-type: none;
+    padding: 5px;
+    border-bottom: 1px dashed $lineColor;
+  }
+}
+
+#tasksIndex{
+
+}
 #newTaskForm {
   input[name=taskRecurringInterval]{
     text-align: center;

@@ -1,8 +1,9 @@
+'use strict';
+
 
 // a simple wrapper on Firebase and AngularFire to simplify deps and keep things DRY
 angular.module('firebase.utils', ['firebase', 'firebase.config'])
   .factory('fbutil', ['$window', 'FBURL', '$firebase', function($window, FBURL, $firebase) {
-    'use strict';
 
     return {
       syncObject: function(path, factoryConfig) { // jshint ignore:line
@@ -84,4 +85,6 @@ angular.module('firebase.utils', ['firebase', 'firebase.config'])
       });
       return $firebase(ref, props);
     }
-  }]);
+  }]).service('FBUserService', function(user){
+    console.log(user.uid);
+  });
